@@ -92,7 +92,7 @@ export const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-primary border-t border-secondary/20">
+        <div className="md:hidden bg-black/70 border-t border-secondary/20">
           <div className="px-4 pt-2 pb-4 space-y-2">
             {navLinks.map((link) => (
               <Link

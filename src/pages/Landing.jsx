@@ -172,7 +172,7 @@ export const Landing = () => {
               size="lg"
               className="bg-secondary text-primary hover:bg-secondary/90 px-8 py-6 text-base font-medium rounded-md smooth-transition"
             >
-              <Link to="/about">
+              <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
                 {t({ en: 'Contact Us', id: 'Hubungi Kami' })}
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
