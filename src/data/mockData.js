@@ -1,7 +1,7 @@
 export const portfolioData = [
   {
     id: 1,
-    image: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1543191219-92c8ed3d8cfd?w=800&q=80',
     title: {
       en: 'Bali Tourism Campaign 2024',
       id: 'Kampanye Pariwisata Bali 2024'
@@ -14,7 +14,7 @@ export const portfolioData = [
   },
   {
     id: 2,
-    image: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80',
     title: {
       en: 'Brand Identity Launch - Tech Startup',
       id: 'Peluncuran Identitas Merek - Startup Teknologi'
@@ -27,7 +27,7 @@ export const portfolioData = [
   },
   {
     id: 3,
-    image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&q=80',
     title: {
       en: 'Music Festival Documentary',
       id: 'Dokumenter Festival Musik'
@@ -40,7 +40,7 @@ export const portfolioData = [
   },
   {
     id: 4,
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80',
+    image: 'https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20%281%20of%201%29-5.jpg?w=800&q=80',
     title: {
       en: 'Corporate Video - Sustainability Initiative',
       id: 'Video Korporat - Inisiatif Keberlanjutan'
@@ -53,7 +53,7 @@ export const portfolioData = [
   },
   {
     id: 5,
-    image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1601844133034-9cdae977131f?w=800&q=80',
     title: {
       en: 'Fashion Brand Lookbook 2024',
       id: 'Lookbook Merek Fashion 2024'
@@ -66,7 +66,7 @@ export const portfolioData = [
   },
   {
     id: 6,
-    image: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1758467700917-3517eb11ec8c?w=800&q=80',
     title: {
       en: 'Product Launch Event Coverage',
       id: 'Liputan Acara Peluncuran Produk'
@@ -90,7 +90,8 @@ export const servicesData = [
       en: 'Professional video editing services for commercials, documentaries, and corporate videos.',
       id: 'Layanan editing video profesional untuk iklan, dokumenter, dan video korporat.'
     },
-    icon: 'film'
+    icon: 'film',
+    image: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&q=80'
   },
   {
     id: 2,
@@ -102,7 +103,8 @@ export const servicesData = [
       en: 'Expert color grading to enhance your footage and create the perfect mood.',
       id: 'Color grading ahli untuk meningkatkan footage Anda dan menciptakan suasana yang sempurna.'
     },
-    icon: 'palette'
+    icon: 'palette',
+    image: 'https://images.unsplash.com/photo-1608699565448-9492aaf3c708?w=800&q=80'
   },
   {
     id: 3,
@@ -114,7 +116,8 @@ export const servicesData = [
       en: 'Original music composition and scoring tailored to your project.',
       id: 'Komposisi musik original dan scoring yang disesuaikan dengan proyek Anda.'
     },
-    icon: 'music'
+    icon: 'music',
+    image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&q=80'
   },
   {
     id: 4,
@@ -126,7 +129,8 @@ export const servicesData = [
       en: 'Cutting-edge CGI and graphic design for stunning visual effects.',
       id: 'CGI dan desain grafis terkini untuk efek visual yang menakjubkan.'
     },
-    icon: 'wand-sparkles'
+    icon: 'wand-sparkles',
+    image: 'https://images.unsplash.com/photo-1690264006308-844551ad916e?w=800&q=80'
   },
   {
     id: 5,
@@ -138,7 +142,8 @@ export const servicesData = [
       en: 'Professional audio mixing and sound design for pristine audio quality.',
       id: 'Audio mixing profesional dan desain suara untuk kualitas audio yang sempurna.'
     },
-    icon: 'volume-2'
+    icon: 'volume-2',
+    image: 'https://images.unsplash.com/photo-1631006572399-e5bc3304e57b?w=800&q=80'
   },
   {
     id: 6,
@@ -150,7 +155,8 @@ export const servicesData = [
       en: 'Comprehensive media promotion services for films and events.',
       id: 'Layanan promosi media komprehensif untuk film dan acara.'
     },
-    icon: 'megaphone'
+    icon: 'megaphone',
+    image: 'https://images.unsplash.com/photo-1712217559117-665e01ae5bc8?w=800&q=80'
   },
   {
     id: 7,
@@ -162,7 +168,8 @@ export const servicesData = [
       en: 'Full-service production from concept to final delivery.',
       id: 'Produksi layanan penuh dari konsep hingga pengiriman akhir.'
     },
-    icon: 'clapperboard'
+    icon: 'clapperboard',
+    image: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80'
   },
   {
     id: 8,
@@ -174,6 +181,7 @@ export const servicesData = [
       en: 'Innovative creative strategies to promote your brand and content.',
       id: 'Strategi kreatif inovatif untuk mempromosikan merek dan konten Anda.'
     },
-    icon: 'lightbulb'
+    icon: 'lightbulb',
+    image: 'https://images.unsplash.com/photo-1537731121640-bc1c4aba9b80?w=800&q=80'
   }
 ];

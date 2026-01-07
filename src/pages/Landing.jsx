@@ -5,24 +5,9 @@ import { Card, CardContent } from '../components/ui/card';
 import { ArrowRight } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { servicesData } from '../data/mockData';
-import * as LucideIcons from 'lucide-react';
 
 export const Landing = () => {
   const { t } = useLanguage();
-
-  const getIcon = (iconName) => {
-    const iconMap = {
-      'film': LucideIcons.Film,
-      'palette': LucideIcons.Palette,
-      'music': LucideIcons.Music,
-      'wand-sparkles': LucideIcons.WandSparkles,
-      'volume-2': LucideIcons.Volume2,
-      'megaphone': LucideIcons.Megaphone,
-      'clapperboard': LucideIcons.Clapperboard,
-      'lightbulb': LucideIcons.Lightbulb
-    };
-    return iconMap[iconName] || LucideIcons.Star;
-  };
 
   return (
     <div className="min-h-screen">
@@ -128,18 +113,20 @@ export const Landing = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {servicesData.map((service) => {
-              const Icon = getIcon(service.icon);
               return (
                 <Card
                   key={service.id}
-                  className="group hover:shadow-lg smooth-transition border-border/50 bg-card"
+                  className="group hover:shadow-lg smooth-transition border-border/50 bg-card overflow-hidden"
                 >
-                  <CardContent className="p-6 flex flex-col h-full">
-                    <div className="mb-4">
-                      <div className="w-14 h-14 rounded-lg bg-secondary/10 flex items-center justify-center group-hover:bg-secondary/20 smooth-transition">
-                        <Icon className="w-7 h-7 text-secondary" />
-                      </div>
-                    </div>
+                  <div className="relative w-full h-48 overflow-hidden">
+                    <img
+                      src={service.image}
+                      alt={t(service.title)}
+                      className="w-full h-full object-cover group-hover:scale-110 smooth-transition"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                  </div>
+                  <CardContent className="p-6 flex flex-col">
                     <h3 className="text-lg font-semibold text-foreground mb-2">
                       {t(service.title)}
                     </h3>
@@ -154,7 +141,6 @@ export const Landing = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="py-20 bg-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center space-y-6">
